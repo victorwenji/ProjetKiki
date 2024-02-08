@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: main.scala.mnmc.MnMcount
+Main-Class: main.scala.mnmc.Formated
+

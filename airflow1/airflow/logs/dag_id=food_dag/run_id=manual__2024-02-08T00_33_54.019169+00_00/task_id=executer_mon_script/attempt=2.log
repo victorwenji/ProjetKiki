@@ -1,0 +1,25 @@
+[2024-02-08T01:39:51.329+0100] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: food_dag.executer_mon_script manual__2024-02-08T00:33:54.019169+00:00 [queued]>
+[2024-02-08T01:39:51.366+0100] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: food_dag.executer_mon_script manual__2024-02-08T00:33:54.019169+00:00 [queued]>
+[2024-02-08T01:39:51.367+0100] {taskinstance.py:2171} INFO - Starting attempt 2 of 6
+[2024-02-08T01:39:51.533+0100] {taskinstance.py:2192} INFO - Executing <Task(BashOperator): executer_mon_script> on 2024-02-08 00:33:54.019169+00:00
+[2024-02-08T01:39:51.550+0100] {standard_task_runner.py:60} INFO - Started process 56633 to run task
+[2024-02-08T01:39:51.560+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'food_dag', 'executer_mon_script', 'manual__2024-02-08T00:33:54.019169+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/foodDags.py', '--cfg-path', '/tmp/tmpjuh0wj5r']
+[2024-02-08T01:39:51.572+0100] {standard_task_runner.py:88} INFO - Job 17: Subtask executer_mon_script
+[2024-02-08T01:39:51.921+0100] {task_command.py:423} INFO - Running <TaskInstance: food_dag.executer_mon_script manual__2024-02-08T00:33:54.019169+00:00 [running]> on host ubuntu.ubuntu.virtualbox.org
+[2024-02-08T01:39:52.314+0100] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pascal-victor' AIRFLOW_CTX_DAG_ID='food_dag' AIRFLOW_CTX_TASK_ID='executer_mon_script' AIRFLOW_CTX_EXECUTION_DATE='2024-02-08T00:33:54.019169+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-08T00:33:54.019169+00:00'
+[2024-02-08T01:39:52.322+0100] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-02-08T01:39:52.323+0100] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/ubuntu/airflow/extrat.sh"2024-02-08" ']
+[2024-02-08T01:39:52.500+0100] {subprocess.py:86} INFO - Output:
+[2024-02-08T01:39:52.503+0100] {subprocess.py:93} INFO - /usr/bin/bash: ligne 1: /home/ubuntu/airflow/extrat.sh2024-02-08: Aucun fichier ou dossier de ce type
+[2024-02-08T01:39:52.504+0100] {subprocess.py:97} INFO - Command exited with return code 127
+[2024-02-08T01:39:52.519+0100] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2024-02-08T01:39:52.525+0100] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=food_dag, task_id=executer_mon_script, execution_date=20240208T003354, start_date=20240208T003951, end_date=20240208T003952
+[2024-02-08T01:39:52.731+0100] {standard_task_runner.py:107} ERROR - Failed to execute job 17 for task executer_mon_script (Bash command failed. The command returned a non-zero exit code 127.; 56633)
+[2024-02-08T01:39:52.769+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-02-08T01:39:52.845+0100] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

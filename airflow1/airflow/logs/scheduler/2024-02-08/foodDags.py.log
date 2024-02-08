@@ -1,0 +1,774 @@
+[2024-02-08T01:01:32.072+0100] {processor.py:161} INFO - Started process (PID=50402) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:01:32.077+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:01:32.083+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:01:32.082+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:01:32.134+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:01:32.113+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:01:32.156+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:01:32.282+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.221 seconds
+[2024-02-08T01:03:22.760+0100] {processor.py:161} INFO - Started process (PID=50755) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:03:22.807+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:03:22.815+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:03:22.815+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:03:22.832+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:03:22.830+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:03:22.834+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:03:22.909+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.184 seconds
+[2024-02-08T01:04:41.325+0100] {processor.py:161} INFO - Started process (PID=50914) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:04:41.363+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:04:41.365+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:04:41.364+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:04:41.372+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:04:41.371+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:04:41.373+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:04:41.587+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.278 seconds
+[2024-02-08T01:05:36.894+0100] {processor.py:161} INFO - Started process (PID=51045) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:05:36.967+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:05:36.968+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:05:36.968+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:05:36.993+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:05:36.991+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:05:36.994+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:05:37.031+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.148 seconds
+[2024-02-08T01:06:18.209+0100] {processor.py:161} INFO - Started process (PID=51135) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:06:18.238+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:06:18.239+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:06:18.238+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:06:18.272+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:06:18.252+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:06:18.292+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:06:18.401+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.213 seconds
+[2024-02-08T01:06:56.539+0100] {processor.py:161} INFO - Started process (PID=51423) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:06:56.545+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:06:56.549+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:06:56.546+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:06:56.560+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:06:56.559+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:06:56.562+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:06:56.648+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.151 seconds
+[2024-02-08T01:07:33.419+0100] {processor.py:161} INFO - Started process (PID=51649) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:07:33.423+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:07:33.426+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:07:33.425+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:07:33.435+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:07:33.432+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:07:33.435+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:07:33.491+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.077 seconds
+[2024-02-08T01:08:11.270+0100] {processor.py:161} INFO - Started process (PID=51808) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:08:11.320+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:08:11.337+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:08:11.336+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:08:11.403+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:08:11.391+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:08:11.421+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:08:11.799+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.572 seconds
+[2024-02-08T01:08:57.942+0100] {processor.py:161} INFO - Started process (PID=52022) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:08:57.944+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:08:57.946+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:08:57.945+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:08:57.960+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:08:57.958+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:08:57.962+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:08:58.017+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.083 seconds
+[2024-02-08T01:09:48.655+0100] {processor.py:161} INFO - Started process (PID=52191) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:09:48.658+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:09:48.661+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:09:48.660+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:09:48.669+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:09:48.668+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:09:48.673+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:09:48.915+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.275 seconds
+[2024-02-08T01:10:33.516+0100] {processor.py:161} INFO - Started process (PID=52279) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:10:33.518+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:10:33.520+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:10:33.520+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:10:33.525+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:10:33.524+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:10:33.525+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:10:33.558+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.045 seconds
+[2024-02-08T01:11:06.853+0100] {processor.py:161} INFO - Started process (PID=52357) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:11:06.862+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:11:06.867+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:11:06.865+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:11:06.880+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:11:06.877+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:11:06.881+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:11:07.068+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.231 seconds
+[2024-02-08T01:12:02.510+0100] {processor.py:161} INFO - Started process (PID=52619) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:12:02.573+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:12:02.581+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:12:02.574+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:12:02.599+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:12:02.589+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:12:02.600+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:12:03.058+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.552 seconds
+[2024-02-08T01:13:38.660+0100] {processor.py:161} INFO - Started process (PID=53030) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:13:38.693+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:13:38.694+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:13:38.693+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:13:38.722+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:13:38.719+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:13:38.747+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:13:39.015+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.381 seconds
+[2024-02-08T01:15:54.296+0100] {processor.py:161} INFO - Started process (PID=53489) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:15:54.302+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:15:54.304+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:15:54.303+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:15:54.348+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:15:54.319+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:15:54.352+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:15:54.595+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.316 seconds
+[2024-02-08T01:17:41.734+0100] {processor.py:161} INFO - Started process (PID=54018) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:17:41.838+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:17:41.842+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:17:41.841+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:17:41.875+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:17:41.853+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 3, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2024-02-08T01:17:41.905+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:17:42.729+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 1.006 seconds
+[2024-02-08T01:19:05.228+0100] {processor.py:161} INFO - Started process (PID=54320) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:19:05.233+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:19:05.238+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:19:05.237+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:19:05.258+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:19:05.256+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task,  # formatted
+NameError: name 'formated_task' is not defined
+[2024-02-08T01:19:05.259+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:19:05.592+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.372 seconds
+[2024-02-08T01:20:08.104+0100] {processor.py:161} INFO - Started process (PID=54445) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:20:08.109+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:20:08.121+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:20:08.116+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:20:08.184+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:20:08.181+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task,  # formatted
+NameError: name 'formated_task' is not defined
+[2024-02-08T01:20:08.190+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:20:08.505+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.413 seconds
+[2024-02-08T01:20:59.020+0100] {processor.py:161} INFO - Started process (PID=54568) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:20:59.070+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:20:59.072+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:20:59.071+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:20:59.122+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:20:59.121+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task,  # formatted
+NameError: name 'formated_task' is not defined
+[2024-02-08T01:20:59.132+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:20:59.313+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.311 seconds
+[2024-02-08T01:21:56.373+0100] {processor.py:161} INFO - Started process (PID=54665) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:21:56.380+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:21:56.383+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:21:56.382+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:21:56.420+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:21:56.416+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task,  # formatted
+NameError: name 'formated_task' is not defined
+[2024-02-08T01:21:56.427+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:21:56.661+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.302 seconds
+[2024-02-08T01:22:48.933+0100] {processor.py:161} INFO - Started process (PID=54845) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:22:48.936+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:22:48.938+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:22:48.937+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:22:48.956+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:22:48.954+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task,  # formatted
+NameError: name 'formated_task' is not defined
+[2024-02-08T01:22:48.957+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:22:49.008+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.083 seconds
+[2024-02-08T01:23:27.775+0100] {processor.py:161} INFO - Started process (PID=54923) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:23:27.777+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:23:27.778+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:23:27.778+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:23:27.793+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:23:27.792+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task,  # formatted
+NameError: name 'formated_task' is not defined
+[2024-02-08T01:23:27.794+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:23:27.826+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.056 seconds
+[2024-02-08T01:24:03.675+0100] {processor.py:161} INFO - Started process (PID=54996) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:24:03.677+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:24:03.678+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:24:03.677+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:24:03.692+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:24:03.691+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task,  # formatted
+NameError: name 'formated_task' is not defined
+[2024-02-08T01:24:03.692+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:24:03.723+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.051 seconds
+[2024-02-08T01:24:37.058+0100] {processor.py:161} INFO - Started process (PID=55055) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:24:37.087+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:24:37.089+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:24:37.088+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:24:37.177+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:24:37.172+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task,  # formatted
+NameError: name 'formated_task' is not defined
+[2024-02-08T01:24:37.179+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:24:37.607+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.566 seconds
+[2024-02-08T01:25:14.057+0100] {processor.py:161} INFO - Started process (PID=55125) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:25:14.061+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:25:14.063+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:25:14.062+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:25:14.075+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:25:14.074+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task,  # formatted
+NameError: name 'formated_task' is not defined
+[2024-02-08T01:25:14.076+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:25:14.103+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.054 seconds
+[2024-02-08T01:26:09.313+0100] {processor.py:161} INFO - Started process (PID=55210) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:26:09.315+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:26:09.319+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:26:09.319+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:26:09.336+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:26:09.332+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task,  # formatted
+NameError: name 'formated_task' is not defined
+[2024-02-08T01:26:09.343+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:26:09.382+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.074 seconds
+[2024-02-08T01:27:01.162+0100] {processor.py:161} INFO - Started process (PID=55311) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:27:01.169+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:27:01.174+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:27:01.173+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:27:01.289+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:27:01.277+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task,  # formatted
+NameError: name 'formated_task' is not defined
+[2024-02-08T01:27:01.289+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:27:01.549+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.393 seconds
+[2024-02-08T01:27:50.386+0100] {processor.py:161} INFO - Started process (PID=55402) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:27:50.388+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:27:50.401+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:27:50.389+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:27:50.425+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:27:50.422+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task,  # formatted
+NameError: name 'formated_task' is not defined
+[2024-02-08T01:27:50.425+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:27:50.516+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.133 seconds
+[2024-02-08T01:28:34.248+0100] {processor.py:161} INFO - Started process (PID=55477) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:28:34.253+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:28:34.255+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:28:34.255+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:28:34.321+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:28:34.318+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task_name,  # formatted
+NameError: name 'formated_task_name' is not defined
+[2024-02-08T01:28:34.322+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:28:34.581+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.340 seconds
+[2024-02-08T01:29:28.615+0100] {processor.py:161} INFO - Started process (PID=55577) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:29:28.629+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:29:28.630+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:29:28.630+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:29:28.681+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:29:28.676+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task_name,  # formatted
+NameError: name 'formated_task_name' is not defined
+[2024-02-08T01:29:28.687+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:29:28.869+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.268 seconds
+[2024-02-08T01:30:30.551+0100] {processor.py:161} INFO - Started process (PID=55696) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:30:30.575+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:30:30.577+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:30:30.576+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:30:30.645+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:30:30.642+0100] {dagbag.py:348} ERROR - Failed to import: /home/ubuntu/airflow/dags/foodDags.py
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/airflow/dags/foodDags.py", line 41, in <module>
+    task_id=formated_task_name,  # formatted
+NameError: name 'formated_task_name' is not defined
+[2024-02-08T01:30:30.646+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:30:30.857+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.338 seconds
+[2024-02-08T01:31:24.896+0100] {processor.py:161} INFO - Started process (PID=55794) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:31:24.968+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:31:24.972+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:31:24.969+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:31:25.077+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:31:26.036+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:31:26.034+0100] {override.py:1769} INFO - Created Permission View: can delete on DAG:food_dag
+[2024-02-08T01:31:26.110+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:31:26.109+0100] {override.py:1769} INFO - Created Permission View: can edit on DAG:food_dag
+[2024-02-08T01:31:26.281+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:31:26.280+0100] {override.py:1769} INFO - Created Permission View: can read on DAG:food_dag
+[2024-02-08T01:31:26.282+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:31:26.281+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:31:26.361+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:31:26.360+0100] {dag.py:3055} INFO - Creating ORM DAG for food_dag
+[2024-02-08T01:31:26.427+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:31:26.427+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:31:26.640+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 1.765 seconds
+[2024-02-08T01:32:32.764+0100] {processor.py:161} INFO - Started process (PID=55904) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:32:32.768+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:32:32.770+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:32:32.769+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:32:32.793+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:32:32.937+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:32:32.936+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:32:33.044+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:32:33.043+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:32:33.137+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.379 seconds
+[2024-02-08T01:33:40.430+0100] {processor.py:161} INFO - Started process (PID=56016) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:33:40.433+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:33:40.435+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:33:40.434+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:33:40.466+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:33:40.601+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:33:40.601+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:33:40.734+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:33:40.734+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:33:40.971+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.551 seconds
+[2024-02-08T01:35:43.741+0100] {processor.py:161} INFO - Started process (PID=56196) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:35:43.752+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:35:43.754+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:35:43.753+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:35:43.780+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:35:43.935+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:35:43.934+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:35:44.050+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:35:44.049+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:35:44.311+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.604 seconds
+[2024-02-08T01:36:59.934+0100] {processor.py:161} INFO - Started process (PID=56317) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:37:00.015+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:37:00.023+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:37:00.022+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:37:00.087+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:37:00.154+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:37:00.154+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:37:00.264+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:37:00.264+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:37:01.117+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 1.195 seconds
+[2024-02-08T01:38:08.823+0100] {processor.py:161} INFO - Started process (PID=56433) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:38:08.825+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:38:08.826+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:38:08.826+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:38:08.844+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:38:08.869+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:38:08.869+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:38:08.909+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:38:08.909+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:38:08.962+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.145 seconds
+[2024-02-08T01:38:54.705+0100] {processor.py:161} INFO - Started process (PID=56524) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:38:54.727+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:38:54.736+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:38:54.728+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:38:54.787+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:38:54.873+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:38:54.873+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:38:54.932+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:38:54.931+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:38:55.014+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.317 seconds
+[2024-02-08T01:40:04.411+0100] {processor.py:161} INFO - Started process (PID=56658) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:40:04.417+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:40:04.420+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:40:04.419+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:40:04.476+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:40:04.545+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:40:04.545+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:40:04.660+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:40:04.659+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:40:04.825+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.423 seconds
+[2024-02-08T01:41:21.967+0100] {processor.py:161} INFO - Started process (PID=56812) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:41:22.007+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:41:22.034+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:41:22.027+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:41:22.088+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:41:22.222+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:41:22.221+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:41:22.387+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:41:22.386+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:41:22.458+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.500 seconds
+[2024-02-08T01:42:04.646+0100] {processor.py:161} INFO - Started process (PID=56885) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:42:04.649+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:42:04.653+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:42:04.651+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:42:04.666+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:42:04.685+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:42:04.685+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:42:04.708+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:42:04.708+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:42:04.745+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.103 seconds
+[2024-02-08T01:42:45.817+0100] {processor.py:161} INFO - Started process (PID=56976) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:42:45.841+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:42:45.850+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:42:45.842+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:42:45.881+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:42:45.973+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:42:45.972+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:42:46.134+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:42:46.134+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:42:46.766+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.954 seconds
+[2024-02-08T01:43:31.885+0100] {processor.py:161} INFO - Started process (PID=57068) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:43:31.925+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:43:31.941+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:43:31.936+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:43:32.057+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:43:32.157+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:43:32.153+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:43:32.301+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:43:32.300+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:43:32.415+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.547 seconds
+[2024-02-08T01:44:11.173+0100] {processor.py:161} INFO - Started process (PID=57136) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:44:11.177+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:44:11.179+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:44:11.178+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:44:11.195+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:44:11.223+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:44:11.223+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:44:11.264+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:44:11.263+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:44:11.301+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.139 seconds
+[2024-02-08T01:44:41.742+0100] {processor.py:161} INFO - Started process (PID=57195) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:44:41.745+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:44:41.746+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:44:41.745+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:44:41.766+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:44:41.782+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:44:41.781+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:44:41.805+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:44:41.805+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:44:41.870+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.132 seconds
+[2024-02-08T01:45:14.214+0100] {processor.py:161} INFO - Started process (PID=57263) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:45:14.216+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:45:14.217+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:45:14.217+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:45:14.230+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:45:14.253+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:45:14.253+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:45:14.277+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:45:14.276+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:45:14.313+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.103 seconds
+[2024-02-08T01:45:47.232+0100] {processor.py:161} INFO - Started process (PID=57329) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:45:47.234+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:45:47.237+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:45:47.236+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:45:47.250+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:45:47.271+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:45:47.270+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:45:47.297+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:45:47.297+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:45:47.346+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.122 seconds
+[2024-02-08T01:46:49.009+0100] {processor.py:161} INFO - Started process (PID=57450) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:46:49.011+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:46:49.013+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:46:49.012+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:46:49.025+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:46:49.045+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:46:49.045+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:46:49.069+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:46:49.069+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:46:49.097+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.092 seconds
+[2024-02-08T01:47:27.378+0100] {processor.py:161} INFO - Started process (PID=57529) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:47:27.400+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:47:27.410+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:47:27.409+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:47:27.454+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:47:27.475+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:47:27.475+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:47:27.509+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:47:27.508+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:47:27.548+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.177 seconds
+[2024-02-08T01:48:15.097+0100] {processor.py:161} INFO - Started process (PID=57633) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:48:15.112+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:48:15.113+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:48:15.113+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:48:15.130+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:48:15.153+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:48:15.153+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:48:15.179+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:48:15.179+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:48:15.215+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.122 seconds
+[2024-02-08T01:49:08.717+0100] {processor.py:161} INFO - Started process (PID=57740) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:49:08.726+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:49:08.739+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:49:08.738+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:49:08.785+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:49:08.840+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:49:08.840+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:49:08.972+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:49:08.971+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:49:09.118+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.409 seconds
+[2024-02-08T01:50:11.106+0100] {processor.py:161} INFO - Started process (PID=57863) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:50:11.108+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:50:11.111+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:50:11.109+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:50:11.169+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:50:11.261+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:50:11.260+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:50:11.411+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:50:11.410+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:50:11.613+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.515 seconds
+[2024-02-08T01:51:02.417+0100] {processor.py:161} INFO - Started process (PID=57972) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:51:02.419+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:51:02.420+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:51:02.420+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:51:02.439+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:51:02.471+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:51:02.471+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:51:02.502+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:51:02.502+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:51:02.535+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.122 seconds
+[2024-02-08T01:51:39.197+0100] {processor.py:161} INFO - Started process (PID=58038) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:51:39.217+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:51:39.221+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:51:39.218+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:51:39.263+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:51:39.372+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:51:39.366+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:51:39.480+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:51:39.478+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:51:39.709+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.519 seconds
+[2024-02-08T01:52:23.423+0100] {processor.py:161} INFO - Started process (PID=58118) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:52:23.425+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:52:23.426+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:52:23.426+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:52:23.449+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:52:23.483+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:52:23.483+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:52:23.520+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:52:23.520+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:52:23.743+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.324 seconds
+[2024-02-08T01:53:06.507+0100] {processor.py:161} INFO - Started process (PID=58194) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:53:06.510+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:53:06.512+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:53:06.511+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:53:06.535+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:53:06.621+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:53:06.620+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:53:06.650+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:53:06.649+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:53:06.687+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.184 seconds
+[2024-02-08T01:53:55.690+0100] {processor.py:161} INFO - Started process (PID=58279) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:53:55.735+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:53:55.756+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:53:55.755+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:53:55.867+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:53:56.230+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:53:56.229+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:53:56.366+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:53:56.366+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:53:56.617+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 1.004 seconds
+[2024-02-08T01:54:47.678+0100] {processor.py:161} INFO - Started process (PID=58376) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:54:47.711+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:54:47.716+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:54:47.715+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:54:47.767+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:54:47.988+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:54:47.988+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:54:48.121+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:54:48.121+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:54:48.415+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.763 seconds
+[2024-02-08T01:55:52.250+0100] {processor.py:161} INFO - Started process (PID=58502) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:55:52.253+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:55:52.255+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:55:52.254+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:55:52.278+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:55:52.310+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:55:52.309+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:55:52.408+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:55:52.408+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:55:52.619+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.376 seconds
+[2024-02-08T01:56:41.856+0100] {processor.py:161} INFO - Started process (PID=58582) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:56:41.858+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:56:41.860+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:56:41.859+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:56:41.875+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:56:41.895+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:56:41.895+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:56:41.936+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:56:41.935+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:56:42.266+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.414 seconds
+[2024-02-08T01:57:33.138+0100] {processor.py:161} INFO - Started process (PID=58669) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:57:33.167+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:57:33.172+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:57:33.171+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:57:33.304+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:57:33.606+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:57:33.606+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:57:33.915+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:57:33.915+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:57:34.125+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 1.003 seconds
+[2024-02-08T01:58:47.342+0100] {processor.py:161} INFO - Started process (PID=58798) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:58:47.399+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:58:47.404+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:58:47.400+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:58:47.460+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:58:47.540+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:58:47.539+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:58:47.657+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:58:47.657+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:58:48.120+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.870 seconds
+[2024-02-08T01:59:38.901+0100] {processor.py:161} INFO - Started process (PID=58890) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:59:38.903+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T01:59:38.910+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:59:38.909+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:59:38.921+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T01:59:38.940+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:59:38.939+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T01:59:38.962+0100] {logging_mixin.py:188} INFO - [2024-02-08T01:59:38.961+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T01:59:39.005+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.108 seconds
+[2024-02-08T02:00:29.519+0100] {processor.py:161} INFO - Started process (PID=58980) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:00:29.522+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:00:29.523+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:00:29.522+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:00:29.535+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:00:29.556+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:00:29.555+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:00:29.583+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:00:29.582+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:00:29.627+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.113 seconds
+[2024-02-08T02:01:29.470+0100] {processor.py:161} INFO - Started process (PID=59082) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:01:29.478+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:01:29.489+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:01:29.487+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:01:29.520+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:01:29.594+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:01:29.594+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:01:29.699+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:01:29.698+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:01:29.824+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.360 seconds
+[2024-02-08T02:02:34.507+0100] {processor.py:161} INFO - Started process (PID=59182) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:02:34.524+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:02:34.551+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:02:34.533+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:02:34.629+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:02:34.755+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:02:34.755+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:02:34.890+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:02:34.890+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:02:35.129+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.629 seconds
+[2024-02-08T02:03:40.367+0100] {processor.py:161} INFO - Started process (PID=59289) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:03:40.373+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:03:40.377+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:03:40.375+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:03:40.452+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:03:40.558+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:03:40.548+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:03:40.639+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:03:40.639+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:03:40.952+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.612 seconds
+[2024-02-08T02:04:39.153+0100] {processor.py:161} INFO - Started process (PID=59393) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:04:39.170+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:04:39.175+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:04:39.174+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:04:39.230+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:04:39.297+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:04:39.297+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:04:39.417+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:04:39.416+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:04:39.523+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.410 seconds
+[2024-02-08T02:05:43.760+0100] {processor.py:161} INFO - Started process (PID=59525) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:05:43.768+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:05:43.879+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:05:43.773+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:05:43.919+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:05:44.088+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:05:44.084+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:05:44.318+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:05:44.317+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:05:44.740+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.995 seconds
+[2024-02-08T02:07:31.965+0100] {processor.py:161} INFO - Started process (PID=60285) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:07:32.014+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:07:32.027+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:07:32.026+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:07:32.197+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:07:32.454+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:07:32.444+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:07:32.672+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:07:32.668+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:07:32.970+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 1.040 seconds
+[2024-02-08T02:09:19.445+0100] {processor.py:161} INFO - Started process (PID=60428) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:09:19.479+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:09:19.481+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:09:19.480+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:09:19.555+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:09:19.630+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:09:19.630+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:09:19.731+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:09:19.731+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:09:20.186+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.754 seconds
+[2024-02-08T02:10:34.773+0100] {processor.py:161} INFO - Started process (PID=60544) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:10:34.775+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:10:34.778+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:10:34.777+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:10:34.822+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:10:34.855+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:10:34.855+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:10:34.880+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:10:34.880+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:10:34.910+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.144 seconds
+[2024-02-08T02:11:12.204+0100] {processor.py:161} INFO - Started process (PID=60593) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:11:12.207+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:11:12.209+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:11:12.208+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:11:12.234+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:11:12.320+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:11:12.319+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:11:12.347+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:11:12.347+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:11:12.378+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.186 seconds
+[2024-02-08T02:11:59.716+0100] {processor.py:161} INFO - Started process (PID=60641) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:11:59.721+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:11:59.724+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:11:59.722+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:11:59.779+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:11:59.859+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:11:59.859+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:11:59.937+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:11:59.936+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:12:00.117+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.412 seconds
+[2024-02-08T02:12:46.684+0100] {processor.py:161} INFO - Started process (PID=60945) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:12:46.687+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:12:46.689+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:12:46.688+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:12:46.710+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:12:46.751+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:12:46.751+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:12:46.802+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:12:46.802+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:12:46.944+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.267 seconds
+[2024-02-08T02:13:24.667+0100] {processor.py:161} INFO - Started process (PID=61009) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:13:24.669+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:13:24.670+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:13:24.669+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:13:24.683+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:13:24.707+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:13:24.707+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:13:24.733+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:13:24.733+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:13:24.770+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.107 seconds
+[2024-02-08T02:14:20.006+0100] {processor.py:161} INFO - Started process (PID=61099) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:14:20.009+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:14:20.012+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:14:20.011+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:14:20.038+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:14:20.056+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:14:20.056+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:14:20.079+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:14:20.079+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:14:20.109+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.109 seconds
+[2024-02-08T02:15:17.081+0100] {processor.py:161} INFO - Started process (PID=61199) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:15:17.084+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:15:17.086+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:15:17.085+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:15:17.107+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:15:17.123+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:15:17.122+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:15:17.142+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:15:17.142+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:15:17.173+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.096 seconds
+[2024-02-08T02:16:11.305+0100] {processor.py:161} INFO - Started process (PID=61279) to work on /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:16:11.308+0100] {processor.py:830} INFO - Processing file /home/ubuntu/airflow/dags/foodDags.py for tasks to queue
+[2024-02-08T02:16:11.310+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:16:11.310+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:16:11.323+0100] {processor.py:840} INFO - DAG(s) 'food_dag' retrieved from /home/ubuntu/airflow/dags/foodDags.py
+[2024-02-08T02:16:11.341+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:16:11.341+0100] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-02-08T02:16:11.362+0100] {logging_mixin.py:188} INFO - [2024-02-08T02:16:11.362+0100] {dag.py:3820} INFO - Setting next_dagrun for food_dag to 2024-02-11T00:00:00+00:00, run_after=2024-02-18T00:00:00+00:00
+[2024-02-08T02:16:11.385+0100] {processor.py:183} INFO - Processing /home/ubuntu/airflow/dags/foodDags.py took 0.084 seconds
